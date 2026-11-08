@@ -48,10 +48,3 @@ Customizing
 
 어려웠던 점과 해결 방법
 1. npm run dev를 쳤더니 실행이 안됐음. Missing script 오류가 났음. package.json의 scripts를 보니 npm start를 쓰는 프로젝트라서 명령어를 바꿔서 해결함.
-
-해결 못한 문제점
-Vercel passkey 문제
-1. GitHub repo를 Vercel에서 import하고 Deploy를 누르면 "Verify Your Identity" 창이 뜨면서 passkey 인증을 요구함.
-2. 내 계정은 2단계 인증이 켜져 있고 기존에 등록한 passkey를 더 이상 쓸 수 없음.
-3. 새 인증 수단(Authenticator 앱)을 추가하려 해도 기존 passkey나 recovery code로 먼저 본인 확인을 하라고 나옴. 둘 다 없어서 진행할 수 없음.
-4. 패스키 발급을 위해 패스키를 인증하라고 해서 배포가 시작되지 못함.
