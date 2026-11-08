@@ -93,11 +93,11 @@ const App = () => {
         <input
           type='text'
           ref={inputRef}
-          placeholder='New Task'
+          placeholder='할 일을 입력하세요'
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <button type='submit'>{isEditing ? "Edit" : "Add"}</button>
+        <button type='submit'>{isEditing ? "수정" : "추가"}</button>
       </form>
       <div className='filter'>
         <button
