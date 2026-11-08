@@ -16,11 +16,13 @@
 	--primary-color: #6c5ce7;
 	--secondary-color: #a29bfe;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   min-height: 100vh;
   background: var(--bg-color);
@@ -187,7 +189,7 @@ button.btn-delete-all {
 .color-container {
   position: absolute;
   width: 100px;
-  height: 80px;
+  height: 200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background: #eee;

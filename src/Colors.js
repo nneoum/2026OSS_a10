@@ -33,6 +33,9 @@ const Colors = () => {
       <span style={{ backgroundColor: "#ff5722" }} onClick={changeColor}></span>
       <span style={{ backgroundColor: "#607d8b" }} onClick={changeColor}></span>
       <span style={{ backgroundColor: "#795548" }} onClick={changeColor}></span>
+      <span style={{ backgroundColor: "#ffc107" }} onClick={changeColor}></span>
+      <span style={{ backgroundColor: "#3f51b5" }} onClick={changeColor}></span>
+      <span style={{ backgroundColor: "#8bc34a" }} onClick={changeColor}></span>
     </div>
   );
 };
